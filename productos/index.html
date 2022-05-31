@@ -1,0 +1,187 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- fuente enlace -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- enlace al archivo css personalizado -->
+    <link rel="stylesheet" href="style.css">
+    <title>BicicletasStore | Productos</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <a href="../index.html">
+                    <img src="./img/logob.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">BMX</h3>
+            <h3 class="menuItem">MERIDA</h3>
+            <h3 class="menuItem">ORBEA</h3>
+            <h3 class="menuItem">SCOTT</h3>
+            <h3 class="menuItem">TREK</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/BMX/imagen1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BMX <br> SEASON</h1>
+                <h2 class="sliderPrice">Q3499</h2>
+                <a href="#product">
+                    <button class="buyButton">COMPRA YA!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Merida/meri1.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">MERIDA</br> SEASON</h1>
+                <h2 class="sliderPrice">Q3999</h2>
+                <a href="#product">
+                    <button class="buyButton">COMPRA YA!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Orbea/orbea.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">ORBEA</br> SEASON</h1>
+                <h2 class="sliderPrice">Q4499</h2>
+                <a href="#product">
+                    <button class="buyButton">COMPRA YA!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Scott/scott.png" width="50%" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">SCOTT</br> SEASON</h1>
+                <h2 class="sliderPrice">Q4999</h2>
+                <a href="#product">
+                    <button class="buyButton">COMPRA YA!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/Trek/trek.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">TREK</br> SEASON</h1>
+                <h2 class="sliderPrice">Q5499</h2>
+                <a href="#product">
+                    <button class="buyButton">COMPRA YA!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">ENVÍO GRATUITO</span>
+            <span class="featureDesc">Envío gratuito en todo el mundo para todos los pedidos.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DÍAS DE DEVOLUCIÓN</span>
+            <span class="featureDesc">Devolución sin preguntas y reembolso fácil en 14 días.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">TARJETAS DE REGALO</span>
+            <span class="featureDesc">Compre tarjetas de regalo y utilice códigos de cupón fácilmente.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">PONTE EN CONTACTO!</span>
+            <span class="featureDesc">Manténgase en contacto a través del correo electrónico y el sistema de apoyo.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/BMX/imagen1.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">JET BMX MODEL</h1>
+            <h2 class="productPrice">Q3499</h2>
+            <p class="productDesc"> Haste con la carretera disfrutando de este hermoso modelo de la Tienda BicicletasStore, y arraza con cada uno de tus oponentes!</p>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Información Personal</h1>
+            <label>Nombre y Apellidos</label>
+            <input type="text" placeholder="Nahomy Cardenas" class="payInput">
+            <label>Celular</label>
+            <input type="text" placeholder="+502 0000-0000" class="payInput">
+            <label>Direccion</label>
+            <input type="text" placeholder="Naranjo - Zona 4" class="payInput">
+            <h1 class="payTitle">Información Tarjeta de Crédito</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Número de tarjeta">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Comprobar!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">¡Sé tú mismo!</h1>
+            <img src="img/Collage/bg3.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="img/Collage/bg2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">Este es el primer día de tu nueva vida</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">¡Sólo hazlo!</h1>
+            <img src="img/Collage/bg1.jpg" alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="img/Collage/bg4.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NOVEDADES DE VACACIONES</h3>
+            <h1 class="nsTitle">Nueva Temporada</h1>
+            <h1 class="nsTitle2">Nueva Colección</h1>
+            <a href="#nav">
+                <button class="nsButton">ELIGE TU ESTILO</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="img/Collage/bg5.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <!-- inicio seccion footer -->
+
+        <section class="footer">
+                
+            <div class="links">
+                <a href="../index.html">Inicio</a>
+                <a href="#">Productos</a>
+            </div>
+        
+            <div class="credit">Created by <span>Mr. Darlings</span> | All rights reserved</div>
+        
+        </section>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
